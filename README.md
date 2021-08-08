@@ -2,7 +2,7 @@
 
 最近在考虑团队代码风格的问题，无意间发现了一个代码格式化神器“**clang-format**”工具
 
-在了解clang-format工具之前，我们先来了解一下什么是clang，什么是LLVM，什么是gcc，什么又是GNU
+在了解clang-format工具之前，我们先来了解一下什么是clang，什么是LLVM，什么是GCC，什么又是GNU
 
 ## GNU
 
@@ -10,7 +10,8 @@
 
 ## GCC
 
-![gccegg-65](https://gitee.com/LucasXm/img/raw/master/img//gccegg-65.png) GCC是一套基于GNU系统开发的编译器，目前支持编译 C, C++, Objective-C,Fortran, Ada, Go, D等多种语言
+![gccegg-65](https://gitee.com/LucasXm/img/raw/master/img//gccegg-65.png) 
+GCC是一套基于GNU系统开发的编译器，目前支持编译 C, C++, Objective-C,Fortran, Ada, Go, D等多种语言
 
 其详细信息可以查看  [GCC, the GNU Compiler Collection](https://www.gnu.org/software/gcc/)
 
