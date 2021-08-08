@@ -59,7 +59,7 @@ clang是一个由Apple主导编写的，以LLVM为后端的前端C、C++、Objec
 
       “C:\Users\\<User Name>\\.vscode\extensions\ms-vscode.cpptools-1.5.1\LLVM\bin”
 
-   5. 打开命令行，输入.\clang-format.exe -style="llvm" -dump-config > .clang-format命令，即可获取到一个名为**.clang-format**的文件，把此文件放到工程代码的根目录下，即可生效。
+   5. 打开命令行，输入.\clang-format.exe -style="llvm" -dump-config > .clang-format命令，即可获取到一个名为.clang-format的文件，把此文件放到工程代码的根目录下，即可生效。
 
       ![image-20210808144231050](https://gitee.com/LucasXm/img/raw/master/img//image-20210808144231050.png)
 
