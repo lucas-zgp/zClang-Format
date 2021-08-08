@@ -25,10 +25,9 @@ LLVM提供了编译器的相关支持，以C++编写而成，用于优化以任�
 ## clang
 
 clang是一个由Apple主导编写的，以LLVM为后端的前端C、C++、Objective-C语言编译器，他具有如下优势
-
-	*	编译速度快
-	*	内存占用小
-	*	兼容gcc
+ - 编译速度快
+ - 内存占用小
+ - 兼容gcc
 
 其详情可以查看 [Clang: a C language family frontend for LLVM](https://clang.llvm.org/)
 
