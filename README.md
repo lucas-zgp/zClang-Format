@@ -22,7 +22,7 @@ LLVM最初由美国UIUC大学的chris Lattner博士主持开展，之后Apple雇
 
 LLVM提供了编译器的相关支持，以C++编写而成，用于优化以任意程序语言编写的程序的编译时间、链接时间、运行时间、空闲时间。
 
-其详情可以查看 [The **LLVM** Compiler Infrastructure]([The LLVM Compiler Infrastructure Project](https://llvm.org/))
+其详情可以查看 [The LLVM Compiler Infrastructure](https://llvm.org/)
 
 ## clang
 
@@ -32,7 +32,7 @@ clang是一个由Apple主导编写的，以LLVM为后端的前端C、C++、Objec
 	*	内存占用小
 	*	兼容gcc
 
-其详情可以查看 [Clang: a C language family frontend for LLVM]([Clang C Language Family Frontend for LLVM](https://clang.llvm.org/))
+其详情可以查看 [Clang: a C language family frontend for LLVM][Clang C Language Family Frontend for LLVM](https://clang.llvm.org/)
 
 
 
@@ -42,7 +42,7 @@ clang是一个由Apple主导编写的，以LLVM为后端的前端C、C++、Objec
 
 1. 想要使用clang-format工具，我们需要一个名为“.clang-format”的配置文件，可以按照如下方法获取
 
-   1. vscode安装**C/C++**扩展，扩展程序将自动安装clang-format
+   1. vscode安装C/C++扩展，扩展程序将自动安装clang-format
 
    2. 在vsc用户设置里面搜索clang，可以找到一个名为“C_Cpp: Clang_format_style”的选项，查看他的介绍，我们可以把代码格式化风格设置为如下几种
 
@@ -60,7 +60,7 @@ clang是一个由Apple主导编写的，以LLVM为后端的前端C、C++、Objec
 
       “C:\Users\\<User Name>\\.vscode\extensions\ms-vscode.cpptools-1.5.1\LLVM\bin”
 
-   5. 打开命令行，输入.\clang-format.exe -style="llvm" -dump-config > .clang-format命令，即可获取到一个名为.clang-format的文件，把此文件放到工程代码的根目录下，即可生效。
+   5. 打开命令行，输入.\clang-format.exe -style="llvm" -dump-config > .clang-format命令，即可获取到一个名为**.clang-format**的文件，把此文件放到工程代码的根目录下，即可生效。
 
       ![image-20210808144231050](https://gitee.com/LucasXm/img/raw/master/img//image-20210808144231050.png)
 
